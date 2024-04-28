@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.actitime.genericlib.CreateCustomer">
+        <methods>
+          <include name="modifyCustomer"/>
+          <include name="confiAfterClass"/>
+          <include name="CofigAfterMethod"/>
+          <include name="configBeforeClass"/>
+          <include name="createCustomer"/>
+          <include name="deleteCustomer"/>
+          <include name="ConfigBeforeMethod"/>
+        </methods>
+      </class> <!-- com.actitime.genericlib.CreateCustomer -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

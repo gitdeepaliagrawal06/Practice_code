@@ -1,0 +1,31 @@
+
+public class Vicle 
+{
+	public void transport()
+	{
+		System.out.println("Use for Travelling");
+	}
+	
+	class Car extends Vicle
+	{
+		public void transport()
+		{
+		System.out.println("Use For Travelling on Road");
+	}
+	class Flight extends Vicle
+	{
+		public void transport()
+		{
+			System.out.println("Use for Travelling on air");
+		}
+	}
+class Ship extends Vicle
+{
+	public void trnsport()
+	{
+		System.out.println("Use for Travelling on water");
+	}
+	
+	
+}
+}}

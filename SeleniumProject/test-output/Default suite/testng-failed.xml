@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestNGtest.UserTest">
+        <methods>
+          <include name="createUserTest"/>
+          <include name="cofigbeforeClass"/>
+          <include name="modifyUserTest"/>
+          <include name="deleteUserTest"/>
+        </methods>
+      </class> <!-- TestNGtest.UserTest -->
+      <class name="TestNGtest.NewTestNGTest">
+        <methods>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestNGtest.NewTestNGTest -->
+      <class name="TestNGtest.ActiTime">
+        <methods>
+          <include name="LoginApp"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- TestNGtest.ActiTime -->
+      <class name="TestNGtest.GoogleTest">
+        <methods>
+          <include name="mailLinkTest"/>
+          <include name="googleLogoTest"/>
+          <include name="setUpbeforeMethod"/>
+          <include name="googleTitleTest"/>
+        </methods>
+      </class> <!-- TestNGtest.GoogleTest -->
+      <class name="TestNGtest.NewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestNGtest.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
